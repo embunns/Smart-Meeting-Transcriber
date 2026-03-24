@@ -1,0 +1,13 @@
+asr:
+  model: base
+  device: auto
+  language: null
+
+summarizer:
+  model: facebook/bart-large-cnn
+  max_length: 150
+  min_length: 40
+
+app:
+  title: Meeting Transcriber
+  max_upload_size_mb: 200
