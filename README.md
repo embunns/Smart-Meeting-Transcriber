@@ -135,8 +135,4 @@ from jiwer import wer
 score = wer(reference_text, hypothesis_text)
 ```
 
----
 
-## License
-
-MIT
